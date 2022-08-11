@@ -1,0 +1,20 @@
+.boxinput {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgb(24 94 224 / 15%), 0 6px 12px 0 rgb(24 94 224 / 15%);
+    padding: 10px;
+    border-radius: 99px;
+    border-bottom: 2px #287094 solid;
+    input {
+        width: calc(100% - 20px);
+        height: 100%;
+        border-radius: 99px;
+        border: none;
+        padding: 10px 10px;
+        outline: none;
+    }
+    input:focus {
+        background: #f7f8f3;
+        outline: none;
+    }
+}

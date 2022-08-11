@@ -1,0 +1,15 @@
+.listItem {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    ul {
+        width: 300px;
+        list-style: none;
+        background-color: #fff;
+        box-shadow: 0 0 1px 0 rgb(24 94 224 / 15%), 0 6px 12px 0 rgb(24 94 224 / 15%);
+        padding: 10px;
+        padding-bottom: 70px;
+        border-radius: 30px;
+        border-bottom: 2px #287094 solid;
+    }
+}

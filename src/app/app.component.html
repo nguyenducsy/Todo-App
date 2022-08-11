@@ -1,0 +1,4 @@
+<div class="container">
+    <app-input-component (inputItem)="addItem($event)"></app-input-component>
+    <app-list-component [listItem]="listItem" (deleteId)="deleteItem($event)" (completeId)="completeItem($event)"></app-list-component>
+</div>

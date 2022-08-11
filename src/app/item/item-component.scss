@@ -1,0 +1,51 @@
+li {
+    padding: 10px;
+    background: #f7f8f3c9;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    font-style: italic;
+    justify-content: space-between;
+    color: #287094;
+    align-items: center;
+    transition: ease all 0.7s;
+    opacity: 1;
+    .groupbutton {
+        display: flex;
+        &__cpl {
+            margin: 0px 10px;
+            color: white;
+            // background-color: #287094;
+        }
+        &__del {
+            color: white;
+            // background-color: #F7444e;
+        }
+    }
+    &:hover {
+        background: #f7f8f39c;
+        transition: .3s;
+    }
+}
+
+.btn {
+    border: none;
+    border-radius: 99px;
+    padding: 10px;
+    opacity: .8;
+    background-color: #e6e6e6af;
+    cursor: pointer;
+    display: flex;
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+    &:hover {
+        opacity: 1;
+        transition: .3s;
+    }
+}
+
+.color_red {
+    color: red !important;
+}
